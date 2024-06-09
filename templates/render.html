@@ -5,9 +5,7 @@
     <title>{{ page_title }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='icon' href='https://i.imgur.com/aHe6qpf.png' sizes='32x32'>
-    <!-- NOT MODIFIED THIS -->
-
-    <link rel="stylesheet" href="dist/bundle.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/bundle.css', _external=True) }}">
 </head>
 <body>
     <div class='modal-mask' id='bibTextMaskModal'></div>
@@ -32,7 +30,6 @@
         {{ markdown_content }}
     </div>
 
-    <!-- NOT MODIFIED THIS -->
-    <script src="dist/bundle.js"></script>
+    <script src="{{ url_for('static', filename='dist/bundle.js', _external=True) }}"></script>
 </body>
 </html>
