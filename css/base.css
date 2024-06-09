@@ -164,6 +164,12 @@ img {
     border-left: 6px solid darken(var(--color-warning-bg), 10%);
 }
 
+.mermaid {
+    text-align: center;
+}
+
+.diagram-mermaid { border: 0 !important; }
+
 /* Additional styles for GitHub-specific elements */
 
 .markdown-body {
