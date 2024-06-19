@@ -5,7 +5,7 @@
     <title>{{ page_title }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='icon' href='https://i.imgur.com/aHe6qpf.png' sizes='32x32'>
-    <link rel="stylesheet" href="{{ dist_bundle_css }}">
+    <link rel='stylesheet' href='{{ dist_bundle_css }}'>
 </head>
 <body>
     <div class='modal-mask' id='bibTextMaskModal'></div>
@@ -26,14 +26,12 @@
         </div>
     </div>
 
-    <div class="markdown-body">
-        {{ markdown_content }}
-    </div>
+    <div class='markdown-body'>{{ markdown_content }}</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/citation-js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
-    <script src="https://addons.scibun.com/static/prism.js"></script>
-    <script src="{{ dist_bundle_js }}"></script>
+    <script src='https://cdn.jsdelivr.net/npm/citation-js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js'></script>
+    <script src='https://addons.scibun.com/static/prism.js'></script>
+    <script src='{{ dist_bundle_js }}'></script>
 </body>
 </html>
