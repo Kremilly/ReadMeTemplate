@@ -12,6 +12,24 @@ header {
     border: .1em solid var(--color-border);
 }
 
+header > .logo {
+    left: 50%;
+    width: 10em;
+    float: left;
+	height: 100%;
+	outline: none;
+	cursor: pointer;
+    position: absolute;
+    background-size: 80%;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--logo);
+}
+
+header > .logo:hover { animation: bg-color .3s ease-in-out forwards; }
+
 header > .label {
     float: left;
     cursor: default;
