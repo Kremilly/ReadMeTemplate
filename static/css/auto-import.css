@@ -3,9 +3,6 @@
 /* Load font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/* Prism.js: https://cdnjs.com/libraries/prism */
-@import url('https://addons.scimon.dev/static/prism.css');
-
 /* GitHub Gist: https://github.com/lonekorean/gist-syntax-themes */
 @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css');
 
